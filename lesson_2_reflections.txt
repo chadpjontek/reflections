@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+- It creates the nessary files to begin commiting your code. Without doing it you will be
+  unable to make a commit. 
