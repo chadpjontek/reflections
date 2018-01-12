@@ -11,3 +11,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 - You can review your changes with git diff `--staged` which will compare the staging area to the commit at HEAD.
   If you see there are multiple logical changes you could remove some of the changes so only one is committed at a time.
   I have used Git in the past but this is a valuable lesson I have learned! I tended to lump everything together lol.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Making an experimental feature or adding a different version branch would be useful for keeping a working version of your orignal code while
+  the branch version can be worked on indepent of that.
+  
