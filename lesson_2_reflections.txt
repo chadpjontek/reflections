@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
-- It creates the nessary files to begin commiting your code. Without doing it you will be
-  unable to make a commit. 
+- It creates the necessary files to begin commiting your code. Without doing it you will be
+  unable to make a commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- The staging area is where files of your choosing will be put when you `git add` them from your working directory.
+  Once they have been committed they will then become a commit snap shot in the repository. The value of this is allowing
+  you to see what will be a commit and to make changes as necessary.
