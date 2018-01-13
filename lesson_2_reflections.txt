@@ -23,3 +23,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - Say you are on (checkout) branch master, if you then merge branch feature, we'll call it, it will add/delete all new changes from both branches
   going back to the point in which they seperated. It is represented like a tree because it behaves in much the same way and is easy to visualize.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Pros: quickly add/delete the changes without having to go through every line of code
+  Cons: Only able to spot differences which some of those may or may not be appropriate to change. There also could be other code that needs to be
+  changed in order for it to work as a whole.
