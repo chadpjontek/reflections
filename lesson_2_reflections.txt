@@ -16,3 +16,6 @@ What are some situations when branches would be helpful in keeping your history 
 - Making an experimental feature or adding a different version branch would be useful for keeping a working version of your orignal code while
   the branch version can be worked on indepent of that.
   
+How do the diagrams help you visualize the branch structure?
+- I can see the path the commits travel and how they are chained one to the next and when a branch is created how they become a new chain yet
+  linked at the commit in which they were created.
