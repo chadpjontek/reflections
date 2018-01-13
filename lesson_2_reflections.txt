@@ -19,3 +19,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 - I can see the path the commits travel and how they are chained one to the next and when a branch is created how they become a new chain yet
   linked at the commit in which they were created.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Say you are on (checkout) branch master, if you then merge branch feature, we'll call it, it will add/delete all new changes from both branches
+  going back to the point in which they seperated. It is represented like a tree because it behaves in much the same way and is easy to visualize.
